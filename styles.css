@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;700;900&display=swap');
+body{
+    font-family: 'Jost', sans-serif;
+    color: #242424;
+    background:#FAFBFC;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.center{
+    text-align: center;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+}
+nav{
+    background-color: #111111;
+    position: sticky;
+    top:0;
+    width: 100%;
+}
+.navwrapp{
+    height: 70px;
+    width: 100%;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #f5f5f5;
+}
+.brand{
+    font-weight: 100;
+    letter-spacing: 0px; 
+    font-size: 22px;
+}
+.logo i{
+    font-size: 20px;
+    color: #358856;
+}
+.links{
+    font-size: 25px;
+    display: flex;
+    color: #f5f5f5;
+}
+.links i{
+    margin: 0 5px;
+}
+.wp{
+    display: flex;
+    align-items: center;
+}
+.wpn{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 20px 0 2px;
+}
+section{
+    height: calc(100vh - 70px);
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.black{
+    background-image: linear-gradient(to right, black, black, black, rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.062), transparent);
+    color: #62BD69;
+    height: 100%;
+}
+.black-g{
+    background-image: linear-gradient(to right, black, #111111, #111111, #11111163, #11111106, transparent);
+    color: #62BD69;
+    height: 100%;
+}
+.green{
+    background-image: linear-gradient(to right, #358856, #62bd6a, #62bd6a, #62bd6a63, #62bd6a06, transparent);
+    height: 100%;
+}
+.white{
+    background-image:linear-gradient(to right, white, white, white, rgba(255, 255, 255, 0.603), rgba(255, 255, 255, 0.062), transparent) ;
+    color: #242424;
+    height: 100%;
+}
+.sectionwrapp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.text{
+    width: 50%;
+    padding:12px;
+}
+.text h1{
+    font-size: 12vh;/*80px*/
+    line-height: 9.5vh;/*65px*/
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.text p{
+    font-size: 3vh;/*21px*/
+    line-height: 5.3vh;/*35px*/
+}
+footer{
+    padding: 50px 0 12px;
+    background-color: #111111;
+    color: #f5f5f5;
+}
+footer span, footer small{
+    color: #8a8a8a;
+}
+footer h2{
+    margin-bottom: 12px;
+}
+footer span{
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+a>i:hover{
+    color: #62BD69;
+}
+/*
+#######################################################
+MEIDA
+QUERYS
+#######################################################
+
+######
+LAPTOPS
+######
+*/
+@media(max-width:1200px){
+    .container{
+        width: 96%;
+    }
+}
+/*
+######
+IPADS
+######
+*/
+@media(max-width:1024px){
+    .container{
+        width: 96%;
+    }
+    .black-g{
+        background-image: linear-gradient(to right, black, #111111, #111111, #11111190);
+        color: #62BD69;
+        height: 100%;
+    }
+    .green{
+        background-image: linear-gradient(to right, #358856, #62bd6a,#62bd6a,#62bd6a90);
+        height: 100%;
+    }
+    .text{
+        width: 80%;
+    }
+}
+/*
+######
+CELLPHONES WIDE POSITION
+######
+*/
+@media(max-width:768px){
+    .text h1{
+        font-size: 32px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .text p{
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .navwrapp{
+        height: 50px;
+        padding: 0 3px;
+    }
+    .logo{
+        font-size: 16px;
+    }
+    .brand{
+        font-size: 14px;
+    }
+    .logo i{
+        font-size: 12px;
+    }
+    .links{
+        font-size: 16px;
+    }
+    .links i{
+        margin: 0 4px;
+    }
+    .wpn{
+        font-size: 12px;
+        margin: 0 7px 0 1px;
+    }
+    section{
+        height: calc(100vh - 50px);
+    }
+    footer{
+        padding: 30px 10px 15px;
+    }
+    footer h2{
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+    footer span{
+        margin-bottom: 22px;
+        font-size: 16px;
+    }
+    footer small{
+        font-size: 10px;
+    }
+}
+
+/*
+#######
+CELLPHONES STANDARD POSITION
+#######
+*/
+@media(max-width:480px){
+    .text h1{
+        font-size: 35px;
+        line-height: 33px;
+        margin-bottom: 15px;
+    }
+    .text p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    footer h2{
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+    footer span{
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    footer small{
+        font-size: 7px;
+    }
+   
+}
