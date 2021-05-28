@@ -176,39 +176,36 @@ CELLPHONES WIDE POSITION
 */
 @media(max-width:768px){
     .text h1{
-        font-size: 32px;
+        font-size: 45px;
         line-height: 30px;
-        margin-bottom: 15px;
+        margin-bottom: 14px;
     }
     .text p{
-        font-size: 16px;
-        line-height: 27px;
+        font-size: 18px;
+        line-height: 26px;
     }
     .navwrapp{
-        height: 50px;
+        height: 70px;
         padding: 0 3px;
     }
     .logo{
-        font-size: 16px;
+        font-size: 18px;
     }
     .brand{
-        font-size: 14px;
+        font-size: 16px;
     }
     .logo i{
-        font-size: 12px;
+        font-size: 14px;
     }
     .links{
-        font-size: 16px;
+        font-size: 18px;
     }
     .links i{
         margin: 0 4px;
     }
     .wpn{
-        font-size: 12px;
+        font-size: 14px;
         margin: 0 7px 0 1px;
-    }
-    section{
-        height: calc(100vh - 50px);
     }
     footer{
         padding: 30px 10px 15px;
@@ -219,10 +216,10 @@ CELLPHONES WIDE POSITION
     }
     footer span{
         margin-bottom: 22px;
-        font-size: 16px;
+        font-size: 18px;
     }
     footer small{
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
@@ -232,25 +229,6 @@ CELLPHONES STANDARD POSITION
 #######
 */
 @media(max-width:480px){
-    .text h1{
-        font-size: 35px;
-        line-height: 33px;
-        margin-bottom: 15px;
-    }
-    .text p{
-        font-size: 16px;
-        line-height: 25px;
-    }
-    footer h2{
-        margin-bottom: 8px;
-        font-size: 16px;
-    }
-    footer span{
-        margin-bottom: 20px;
-        font-size: 12px;
-    }
-    footer small{
-        font-size: 7px;
-    }
+   
    
 }
