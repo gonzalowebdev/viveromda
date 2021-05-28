@@ -107,6 +107,7 @@ section{
     font-size: 12vh;/*80px*/
     line-height: 9.5vh;/*65px*/
     font-weight: 900;
+    letter-spacing: -3px;
     margin-bottom: 30px;
 }
 .text p{
