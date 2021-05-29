@@ -85,7 +85,7 @@ section{
     height: 100%;
 }
 .green{
-    background-image: linear-gradient(to right, #358856, #62bd6a, #62bd6a, #62bd6a63, #62bd6a06, transparent);
+    background-image: linear-gradient(to right, #4cac54, #62bd6a, #62bd6a, #62bd6a63, #62bd6a06, transparent);
     height: 100%;
 }
 .white{
@@ -186,7 +186,7 @@ IPADS
         height: 100%;
     }
     .green{
-        background-image: linear-gradient(to right, #358856, #62bd6a,#62bd6a,#62bd6a90);
+        background-image: linear-gradient(to right, #4cac54, #62bd6a,#62bd6a,#62bd6a90);
         height: 100%;
     }
     .text{
@@ -196,7 +196,7 @@ IPADS
         font-size: 57px;
         line-height: 65px;
         font-weight: 900;
-        letter-spacing: -3px;
+        letter-spacing: -2px;
         margin-bottom:10px;
     }
     .text p{
@@ -220,6 +220,7 @@ CELLPHONES WIDE POSITION
         font-size: 45px;
         line-height: 30px;
         margin-bottom: 14px;
+        letter-spacing: -1px;
     }
     .text p{
         font-size: 18px;
@@ -250,6 +251,13 @@ CELLPHONES WIDE POSITION
     }
     section{
         height: calc(100vh - 60px);
+    }
+    .itemwrapp h2{
+        font-size: 1.4em;
+        margin-bottom: 7px;
+    }
+    .itemwrapp p{
+        font-size: 18px;
     }
     footer{
         padding: 30px 10px 15px;
