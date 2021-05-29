@@ -114,6 +114,30 @@ section{
     font-size: 3vh;/*21px*/
     line-height: 5.3vh;/*35px*/
 }
+.contacto{
+    background-color: #111111;
+    color: #f5f5f5;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.contactowrapp{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.itemwrapp{
+    width: 33%;
+    padding: 12px;
+}
+.itemwrapp h2{
+    margin-bottom: 10px;
+}
+.itemwrapp p{
+    color: #8a8a8a;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
 footer{
     padding: 50px 0 12px;
     background-color: #111111;
@@ -168,6 +192,23 @@ IPADS
     .text{
         width: 80%;
     }
+    .text h1{
+        font-size: 57px;
+        line-height: 65px;
+        font-weight: 900;
+        letter-spacing: -3px;
+        margin-bottom:10px;
+    }
+    .text p{
+        font-size:20px;
+        line-height:30px;
+    }
+    .contactowrapp{
+        flex-direction: column;
+    }
+    .itemwrapp{
+        width: 90%;
+    }
 }
 /*
 ######
@@ -185,7 +226,7 @@ CELLPHONES WIDE POSITION
         line-height: 26px;
     }
     .navwrapp{
-        height: 70px;
+        height: 60px;
         padding: 0 3px;
     }
     .logo{
@@ -207,6 +248,9 @@ CELLPHONES WIDE POSITION
         font-size: 14px;
         margin: 0 7px 0 1px;
     }
+    section{
+        height: calc(100vh - 60px);
+    }
     footer{
         padding: 30px 10px 15px;
     }
@@ -221,14 +265,4 @@ CELLPHONES WIDE POSITION
     footer small{
         font-size: 12px;
     }
-}
-
-/*
-#######
-CELLPHONES STANDARD POSITION
-#######
-*/
-@media(max-width:480px){
-   
-   
 }
