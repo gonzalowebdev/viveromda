@@ -85,7 +85,7 @@ section{
     height: 100%;
 }
 .green{
-    background-image: linear-gradient(to right, #4cac54, #62bd6a, #62bd6a, #62bd6a63, #62bd6a06, transparent);
+    background-image: linear-gradient(to right, #4cac54ee, #62bd6ae1,#62bd6ad3,#62bd6a6c, transparent);
     height: 100%;
 }
 .white{
@@ -186,22 +186,33 @@ IPADS
         height: 100%;
     }
     .green{
-        background-image: linear-gradient(to right, #4cac54, #62bd6a,#62bd6a,#62bd6a90);
+        background-image: linear-gradient(to right, #4cac54ee, #62bd6ae1,#62bd6ad3,#62bd6a6c);
         height: 100%;
     }
     .text{
         width: 80%;
     }
+    section{
+        height: auto;
+    }
+    .green{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .black-g{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
     .text h1{
-        font-size: 57px;
-        line-height: 65px;
+        font-size: 35px;
+        line-height: 30px;
         font-weight: 900;
         letter-spacing: -2px;
         margin-bottom:10px;
     }
     .text p{
-        font-size:20px;
-        line-height:30px;
+        font-size:18px;
+        line-height:24px;
     }
     .contactowrapp{
         flex-direction: column;
@@ -217,14 +228,7 @@ CELLPHONES WIDE POSITION
 */
 @media(max-width:768px){
     .text h1{
-        font-size: 45px;
-        line-height: 30px;
-        margin-bottom: 14px;
         letter-spacing: -1px;
-    }
-    .text p{
-        font-size: 18px;
-        line-height: 26px;
     }
     .navwrapp{
         height: 60px;
@@ -248,9 +252,6 @@ CELLPHONES WIDE POSITION
     .wpn{
         font-size: 14px;
         margin: 0 7px 0 1px;
-    }
-    section{
-        height: calc(100vh - 60px);
     }
     .itemwrapp h2{
         font-size: 1.4em;
